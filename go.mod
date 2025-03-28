@@ -2,6 +2,8 @@ module github.com/gin-gonic/gin
 
 go 1.23.0
 
+toolchain go1.24.1
+
 require (
 	github.com/bytedance/sonic v1.13.1
 	github.com/gin-contrib/sse v0.1.0
@@ -11,7 +13,7 @@ require (
 	github.com/mattn/go-isatty v0.0.20
 	github.com/pelletier/go-toml/v2 v2.2.2
 	github.com/quic-go/quic-go v0.48.2
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	github.com/ugorji/go/codec v1.2.12
 	golang.org/x/net v0.37.0
 	google.golang.org/protobuf v1.34.1
